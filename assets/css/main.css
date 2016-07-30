@@ -2006,8 +2006,8 @@
 		input[type="button"].special,
 		button.special,
 		.button.special {
-			background-color: #ffffff;
-			color: #312450 !important;
+			background-color: #8E44AD;
+			color: #ffffff!important;
 		}
 
 			input[type="submit"].special:after,
@@ -2016,6 +2016,7 @@
 			button.special:after,
 			.button.special:after {
 				display: none;
+				background-color: #8E44AD;
 			}
 
 		input[type="submit"].disabled, input[type="submit"]:disabled,
@@ -2041,6 +2042,7 @@
 		button:hover,
 		.button:hover {
 			border-color: rgba(255, 255, 255, 0.55) !important;
+			background-color: #4A235A;
 		}
 
 			input[type="submit"]:hover:after,
